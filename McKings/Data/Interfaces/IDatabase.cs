@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace McKings.Data.Interfaces
 {
-    internal interface IDatabase
+    public interface IDatabase
     {
     }
 }
