@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace McKings.Business.Interfaces
 {
-    public interface IIterator
+    public interface IPosManager
     {
-        bool MoveNext();
-        bool Next();
+        void ShowMenu();
+        void HandleUserInput(string userInput);
     }
 }

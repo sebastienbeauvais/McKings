@@ -18,5 +18,6 @@ namespace McKings.Data
             new MenuItem{ Id = 3, Name = "Grilled Cheese", Description = "You dont know what a grilled cheese is?", Price = 4.99, IsVegitarian = false},
             new MenuItem{ Id = 4, Name = "Veggie Delux", Description = "Bread with every veggie smashed between", Price = 5.49, IsVegitarian = true},
         };
+        public IEnumerable<IMenuItem> GetMenuItems() => menuItems;
     }
 }

@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace McKings.Data.Interfaces
+namespace McKings.Business.Interfaces
 {
-    public interface IDatabase
+    public interface Iterator
     {
-        List<IMenuItem> menuItems { get;  }
-        IEnumerable<IMenuItem> GetMenuItems();
+        bool HasNext();
+        IMenuItem Next();
     }
 }

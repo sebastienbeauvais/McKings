@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace McKings.Business
+namespace McKings.Business.Interfaces
 {
-    public class McDolands
+    public interface IIteratorFactory
     {
+        Iterator CreateIterator(string menuType);
     }
 }
