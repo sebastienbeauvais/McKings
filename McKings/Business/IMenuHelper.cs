@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace McKings.Business
 {
-    public class SandwichKing
+    public interface IMenuHelper
     {
+        void PrintMenuItems();
     }
 }

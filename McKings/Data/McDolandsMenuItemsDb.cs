@@ -18,5 +18,6 @@ namespace McKings.Data
             new MenuItem{ Id = 3, Name = "Double McBurger", Description = "Double Beef Patty, Bun, Cheese.", Price = 4.99, IsVegitarian = false},
             new MenuItem{ Id = 4, Name = "McVeg Burger", Description = "Veggie Patty, Whole Wheat Bun, Swiss Cheese", Price = 4.49, IsVegitarian = true},
         };
+        public IEnumerable<IMenuItem> GetMenuItems() => menuItems;
     }
 }
